@@ -9,7 +9,7 @@ places = ['Lisbon, Portugal']
 G = ox.graph_from_place(places,  retain_all=True, simplify = True, network_type='all')
 '''
 
-point = (40.4122958, -3.6986878)
+point = (38.7384, -9.1105)
 G = ox.graph_from_point(point, dist=10000, retain_all=True, simplify = True, network_type='all')
 
 u = []
@@ -55,8 +55,8 @@ for item in data:
             
 
 # Center of map
-latitude = 40.4381311
-longitude = -3.8196194
+latitude = 38.7384
+longitude = -9.1105
 
 
 
