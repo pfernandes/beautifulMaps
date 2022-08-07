@@ -5,7 +5,7 @@ import osmnx as ox
 # Get data for places
 
 '''
-places = ["Madrid, Spain"]
+places = ['Lisbon, Portugal']
 G = ox.graph_from_place(places,  retain_all=True, simplify = True, network_type='all')
 '''
 
